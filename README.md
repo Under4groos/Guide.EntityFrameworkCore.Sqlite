@@ -43,3 +43,4 @@ Scaffold-DbContext "DataSource=<path_sqlite>" Microsoft.EntityFrameworkCore.Sqli
 
 ![](https://raw.githubusercontent.com/Under4groos/Guide.EntityFrameworkCore.Sqlite/refs/heads/master/img/devenv_0wfkw5TWc9.png)
 
+### Этот гайд был создан с использованием искусственного интеллекта для упрощения процесса работы с Entity Framework Core и SQLite.
