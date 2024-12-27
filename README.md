@@ -39,6 +39,13 @@ Microsoft.EntityFrameworkCore.Tools
 ```C++
 Scaffold-DbContext "DataSource=<path_sqlite>" Microsoft.EntityFrameworkCore.Sqlite
 ```
+or 
+```
+Scaffold-DbContext "DataSource=<path_sqlite>" Microsoft.EntityFrameworkCore.Sqlite -OutputDir Models
+```
+-OutputDir Models: Это указывает каталог, в котором будут размещены сгенерированные модели (классы сущностей).
+В этом случае они будут размещены в папке с именем Models.
+
 Эта команда создаст классы моделей и контекст базы данных на основе существующей схемы базы данных.
 
 ![](https://raw.githubusercontent.com/Under4groos/Guide.EntityFrameworkCore.Sqlite/refs/heads/master/img/devenv_0wfkw5TWc9.png)
